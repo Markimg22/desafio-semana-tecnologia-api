@@ -34,6 +34,3 @@ npx prisma studio
 3. Você poode separar e organizar melhor o projeto, a única condição é não mexer na pasta "tests";
 4. Organização no projeto, será levando em conta na hora da avaliação;
 5. Seu objetivo é fazer com que todos os testes passe a medida que você criando as rotas e suas regras.
-
-## Entregar
-Para entregar, exclua a pasta "node_modules", compacta toda a pasta do projeto e envia para o e-mail: marquim.net.221200@gmail.com com o número do Grupo. Não será aceito entregas fora do prazo.
