@@ -12,12 +12,12 @@ Estou buscando um sistema que permita que meus usuários se cadastrem via e-mail
     "email": "Algum e-mail válido"
 }
 ```
-- [] o usuário deverá ser cadastrado com um e-mail válido
-- [] o e-mail deverá ser passado no corpo da requisição
-- [] caso seja passado um e-mail inválido, retorne status 400 e mensagem: "E-mail inválido!"
-- [] caso seja passado um e-mail em uso, retorne status 400 e mensagem: "E-mail já cadastrado!"
-- [] caso o usuário seja criado com sucesso, deverá retornar status 201, e os dados do usuário criado
-- [] caso ocorra um erro interno, retorne o status 500 e a mensage: "Erro de servidor!"
+- [X] o usuário deverá ser cadastrado com um e-mail válido
+- [X] o e-mail deverá ser passado no corpo da requisição
+- [X] caso seja passado um e-mail inválido, retorne status 400 e mensagem: "E-mail inválido!"
+- [X] caso seja passado um e-mail em uso, retorne status 400 e mensagem: "E-mail já cadastrado!"
+- [X] caso o usuário seja criado com sucesso, deverá retornar status 201, e os dados do usuário criado
+- [X] caso ocorra um erro interno, retorne o status 500 e a mensage: "Erro de servidor!"
 
 ### 2.Cadastrar Tarefa - POST /task
 ##### BODY
@@ -28,12 +28,12 @@ Estou buscando um sistema que permita que meus usuários se cadastrem via e-mail
     "description": "Alguma descrição para a tarefa"
 }
 ```
-- [] cada usuário poderá cadastrar várias tarefas, e será registrada com o "title" e "description"
-- [] os dados anteriores deverão vir no corpo da requisição
-- [] caso não passe algum os dados anteriores, retorne status 400 e mensagem: "Dados inválidos!"
-- [] caso tente criar uma tarefa para um usuário que não exista, mostre status 404 e mensagem: "Usuário não encontrado!"
-- [] caso a tarefa seja criada com sucesso, deverá retornar status 201 e a mensagem: "Tarefa criada com sucesso!"
-- [] caso ocorra um erro interno, retorne o status 500 e a mensage: "Erro de servidor!"
+- [X] cada usuário poderá cadastrar várias tarefas, e será registrada com o "title" e "description"
+- [X] os dados anteriores deverão vir no corpo da requisição
+- [X] caso não passe algum os dados anteriores, retorne status 400 e mensagem: "Dados inválidos!"
+- [X] caso tente criar uma tarefa para um usuário que não exista, mostre status 404 e mensagem: "Usuário não encontrado!"
+- [X] caso a tarefa seja criada com sucesso, deverá retornar status 201 e a mensagem: "Tarefa criada com sucesso!"
+- [X] caso ocorra um erro interno, retorne o status 500 e a mensage: "Erro de servidor!"
 
 ### 3.Listar Tarefas - GET /tasks
 ##### BODY
